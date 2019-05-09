@@ -1,10 +1,15 @@
 import React from "react";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import Feats from "../components/Feats";
 import "../styles.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1> Hello Ironhackers! </h1>
+    <div>
+      <Navbar />
+      <Hero />
+      <Feats />
     </div>
   );
 }

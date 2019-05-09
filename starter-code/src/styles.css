@@ -1,4 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
 .App {
   margin: 1rem;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* UIKit override */
+
+.uk-button-large {
+  padding: 5px 30px;
+}
+
+/* Personal styles */
+
+.primary-back {
+  background-color: rgb(31, 37, 53);
+}
+
+.btn {
+  border-radius: 4px;
+  background-color: white;
+}
+
+.text-large {
+  font-size: 1.5em;
+}
+
+.primary-color {
+  color: white;
+}
+
+.muted-color {
+  color: rgb(177, 178, 180);
+}
+
+.secondary-color {
+  color: rgb(31, 37, 53);
+}
+
+.primary-font {
+  font-family: "Lato", sans-serif;
+}
+
+.react1 {
+  top: 5vh;
+  width: 20vw;
+}
+
+.react2 {
+  left: 60vw;
+  width: 15vw;
+}
+
+.react3 {
+  left: 52vw;
+  width: 15vw;
+}
+
+.react4{
+  top: 30vh;
+  width: 10vw;
+}
+
+.react5{
+  top: 60vh;
+  width: 10vw;
+}
+
+.react6{
+  top: 75vh;
+  width: 10vw;
 }
